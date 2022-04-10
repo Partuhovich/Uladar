@@ -120,13 +120,11 @@ img{
 
 .sly-imgs{
     position: relative;
-    display: flex;
     overflow: hidden;
 }
 
 .sly-img{
-    
-background-size: cover;
+    display: none;
 }
 
 .sly-img.active{
@@ -197,6 +195,7 @@ background-size: cover;
     background-color: rgb(0, 0, 0);
     width: 50%;
     padding: 10px 20px;
+    overflow: hidden;
 }
 
 .abaut__head{
@@ -250,16 +249,13 @@ cursor: pointer;
 }
 
 .contact{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 130px;
+ 
+    padding: 10px 50px;
     width: 33%;
     margin: 10px 0;
 }
 
 .contact__photo{
-
-
     margin: 0 auto;
 }
 
@@ -377,5 +373,22 @@ footer{
 .burger{
     display: block;
 }
+
+.abaut{
+    flex-wrap: wrap;
+}
+.abaut__img{
+   width: 100%;
+}
+
+.abaut__inf{
+    width: 100%;
+}
+
+.contact{
+    width: 100%;
+    padding: 10px 0px;
+}
+
 }
 
