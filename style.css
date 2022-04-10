@@ -250,8 +250,8 @@ cursor: pointer;
 
 .contact{
  
-    padding: 10px 50px;
-    width: 33%;
+    padding: 20px 10px;
+    width: 25%;
     margin: 10px 0;
 }
 
@@ -267,7 +267,7 @@ cursor: pointer;
 .contacts__links{
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .contant__link{
@@ -386,9 +386,7 @@ footer{
 }
 
 .contact{
-    width: 100%;
-    padding: 10px 0px;
+    width: 50%;
 }
-
 }
 
